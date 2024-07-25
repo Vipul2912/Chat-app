@@ -35,7 +35,7 @@ const Login = () => {
             <label className='label'>
               <span className='text-base label-text'>Password</span>
             </label>
-            <input type='text' placeholder='Enter Password' className='w-full input input-bordered h-10'
+            <input type='paaword' placeholder='Enter Password' className='w-full input input-bordered h-10'
             value={password}
             onChange={(e)=>setPassword(e.target.value)}/>
           </div>
